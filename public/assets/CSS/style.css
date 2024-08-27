@@ -1,0 +1,80 @@
+/* hero */
+ 
+    /* Barra de navegacion azul */
+    .nav1{
+        height: auto;
+        width: auto;
+        background-color: #5680C1;
+        font-family: Helvetica;
+        color: #fff;
+    }
+       
+    .ind{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        text-align: right;
+    }
+
+    .nav1 ul li a{
+      text-decoration: none;
+      color: inherit; 
+      padding: 10px 20px; 
+      display: inline-block;
+      
+  }
+
+/* hola  */
+    /* Barra de busqueda */
+    .search-container {
+        text-align: center;
+        margin-top: 20px;
+       
+      }
+
+     /* Parte derecha de la barra*/
+   
+     .ind li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 50px 50px;
+        text-decoration: none;
+      }
+
+    .navosc{
+        height: auto;
+        width: auto;
+        padding-top: 50px;
+    }
+
+    
+    /* Barra de navegacion blanca */
+   
+    .nav2 ul li a{
+        text-decoration: none; 
+        color: #3F5270; 
+        padding: 10px 20px; 
+        display: inline-block;
+    }
+    
+    /* HERO  */
+    .hero{
+        background-image: url("../img/heroCampus.jpg");
+        background-size: cover;
+        background-position: center;
+        height: 621px;
+        width: auto;
+    }
+
+    /* BODY  */
+
+    .titulos{
+        font-family:Helvetica;
+        color:#3A6EC0;
+        background-color: rgba(86, 128, 193, 0.15);
+        border: 1.8px solid #5680C1;
+        padding-left: 10px
+    }
+    
